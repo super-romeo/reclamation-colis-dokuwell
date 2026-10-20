@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reclamation-colis.dokuline.com/sitemap.xml
