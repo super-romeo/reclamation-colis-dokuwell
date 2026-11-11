@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pour les e-commerçants : les colis Colissimo bloqués, perdus ou endommagés repérés chaque jour et la réclamation préparée, puis suivie.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -81,38 +85,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">ColisVeille</a></div>
-  <nav class="top"><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">ColisVeille</a>
+  <nav><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Réclamation Colissimo — repérer les colis à problème et réclamer sans y passer la journée</h1>
-    <p class="sub">Pour les boutiques en ligne qui expédient en Colissimo : surveillance quotidienne des envois, liste des colis bloqués ou en retard, réclamation préparée avec les justificatifs et suivi de la réponse.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">J'en ai besoin</a>
-    <p class="cta-note">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pour les boutiques en ligne</p>
+      <h1 class="rise" style="--i:1" data-len="long">Réclamation Colissimo&nbsp;<span class="soft">— repérer les colis à problème et réclamer sans y passer la journée</span></h1>
+      <p class="rise" style="--i:2">Pour les boutiques en ligne qui expédient en Colissimo : surveillance quotidienne des envois, liste des colis bloqués ou en retard, réclamation préparée avec les justificatifs et suivi de la réponse.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">J'en ai besoin</a>
+      <p class="meta rise" style="--i:4">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Colissimo</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="292" font-size="32" fill="#0a1524">réclamation</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="392" font-size="32" fill="#0a1524">en retard</text><rect x="130" y="460" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="492" font-size="32" fill="#0a1524">photos</text><rect x="130" y="560" width="44" height="44" fill="#eef2f7" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="572" width="240" height="20" fill="#dde2ea" rx="8" /><rect x="700" y="250" width="370" height="410" fill="#dfe8f7" rx="20" /><rect x="750" y="530" width="46" height="90" fill="#b9c3d2" rx="8" /><rect x="840" y="460" width="46" height="160" fill="#12397a" rx="8" /><rect x="930" y="500" width="46" height="120" fill="#dde2ea" rx="8" /><rect x="1020" y="560" width="46" height="60" fill="#b9c3d2" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pour</dt><dd>Boutiques en ligne</dd></div>
+      <div><dt>Veille</dt><dd>Colis sans mouvement</dd></div>
+      <div><dt>Dossier</dt><dd>Preuve d'expédition et photos</dd></div>
+      <div><dt>Accès</dt><dd>Accès anticipé</dd></div>
+    </dl>
+  </section>
 
   <section id="quoi" data-view="features_view">
-    <h2>Ce que vous obtenez</h2>
-    <div class="grid">
-      <div class="card"><b>Veille des envois</b><span>Chaque jour, les colis sans mouvement ou en retard ressortent.</span><br><a class="btn" href="price.html" data-ev="feature_veille">J'en ai besoin</a></div>
-      <div class="card"><b>Dossier de réclamation</b><span>Facture, preuve d'expédition et photos réunies pour chaque colis.</span><br><a class="btn" href="price.html" data-ev="feature_dossier">J'en ai besoin</a></div>
-      <div class="card"><b>Délais</b><span>Le délai pour réclamer est rappelé avant qu'il ne soit dépassé.</span><br><a class="btn" href="price.html" data-ev="feature_delais">J'en ai besoin</a></div>
-      <div class="card"><b>Suivi des réponses</b><span>Chaque réclamation garde son état jusqu'à la réponse.</span><br><a class="btn" href="price.html" data-ev="feature_suivi">J'en ai besoin</a></div>
+    <div class="stack"><h2>Ce que vous obtenez</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="34" fill="#0a1524" font-weight="600">sans mouvement</text><rect x="140" y="210" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="150,232 158,242 174,222" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><rect x="210" y="222" width="300" height="20" fill="#dde2ea" rx="8" /><rect x="140" y="300" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="150,322 158,332 174,312" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><rect x="210" y="312" width="240" height="20" fill="#b9c3d2" rx="8" /><rect x="140" y="390" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="152" y="406" width="20" height="12" fill="#ffffff" rx="3" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="402" width="270" height="20" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Veille des envois</h3><p>Chaque jour, les colis sans mouvement ou en retard ressortent.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_veille">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="30" fill="#0a1524" font-weight="600">preuve d'expédition</text><rect x="70" y="170" width="250" height="340" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="220" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="100" y="268" width="130" height="18" fill="#b9c3d2" rx="8" /><rect x="100" y="316" width="160" height="18" fill="#dde2ea" rx="8" /><rect x="100" y="400" width="90" height="18" fill="#dfe8f7" rx="8" /><path d="M340 340 H420" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="420,326 456,340 420,354" fill="#12397a" /><rect x="480" y="170" width="250" height="340" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="220" width="170" height="18" fill="#dfe8f7" rx="8" /><rect x="510" y="268" width="140" height="18" fill="#dde2ea" rx="8" /><rect x="510" y="316" width="180" height="18" fill="#b9c3d2" rx="8" /><circle cx="600" cy="430" r="28" fill="#dfe8f7" /><polyline points="584,430 596,444 620,412" fill="none" stroke="#12397a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+        <h3>Dossier de réclamation</h3><p>Facture, preuve d'expédition et photos réunies pour chaque colis.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dossier">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" fill="#0a1524" font-weight="600">délai pour réclamer</text><rect x="140" y="200" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="230" y="200" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="320" y="200" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="410" y="200" width="70" height="52" fill="#12397a" rx="8" /><rect x="140" y="280" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="230" y="280" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="320" y="280" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="280" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="140" y="360" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="230" y="360" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="320" y="360" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="410" y="360" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="460" width="220" height="18" fill="#dde2ea" rx="8" /><rect x="380" y="460" width="140" height="18" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Délais</h3><p>Le délai pour réclamer est rappelé avant qu'il ne soit dépassé.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_delais">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="120" width="540" height="78" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><text x="170" y="170" font-size="32" fill="#0a1524" font-weight="600">en attente</text><rect x="130" y="250" width="540" height="78" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><text x="170" y="300" font-size="32" fill="#0a1524" font-weight="600">réponse reçue</text><rect x="130" y="380" width="540" height="78" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><text x="170" y="430" font-size="32" fill="#0a1524" font-weight="600">refusée</text></svg></div>
+        <h3>Suivi des réponses</h3><p>Chaque réclamation garde son état jusqu'à la réponse.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_suivi">J'en ai besoin</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemple" data-view="example_view">
-    <h2>Exemple (données fictives)</h2>
-    <p class="fine">Boutique de cosmétiques à Lyon, 600 colis Colissimo par mois. Lundi matin, ColisVeille liste 9 colis sans mouvement depuis plus de cinq jours et 2 colis signalés endommagés par les clientes. Pour chacun, le dossier est prêt : numéro de suivi, facture, valeur, photos. La gérante relit, valide, et la réclamation part ; la semaine suivante, elle voit lesquelles ont reçu une réponse.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Voir l'offre</a>
+  <section id="exemple" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemple</h2>
+      <p>Boutique de cosmétiques à Lyon, 600 colis Colissimo par mois. Lundi matin, ColisVeille liste 9 colis sans mouvement depuis plus de cinq jours et 2 colis signalés endommagés par les clientes. Pour chacun, le dossier est prêt : numéro de suivi, facture, valeur, photos. La gérante relit, valide, et la réclamation part ; la semaine suivante, elle voit lesquelles ont reçu une réponse.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Voir l'offre</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Lundi matin</text><text x="600" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">endommagés</text><text x="960" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">photos</text><rect x="120" y="320" width="960" height="390" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">la réclamation part</text><rect x="170" y="500" width="200" height="24" fill="#dde2ea" rx="8" /><rect x="400" y="500" width="150" height="24" fill="#b9c3d2" rx="8" /><rect x="580" y="500" width="240" height="24" fill="#dfe8f7" rx="8" /><rect x="170" y="580" width="360" height="24" fill="#dde2ea" rx="8" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Comment ça marche</h2>
-    <p>Une boutique en ligne qui expédie des centaines de colis par mois en a toujours quelques-uns qui se perdent, restent bloqués dans un centre de tri ou arrivent abîmés. Le client écrit, on renvoie souvent un produit à ses frais, et la réclamation auprès du transporteur passe après le reste, parfois trop tard. ColisVeille repère ces colis et prépare la réclamation pour vous.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Comment ça marche</h2></div>
+    <div class="stack">
+      <p>Une boutique en ligne qui expédie des centaines de colis par mois en a toujours quelques-uns qui se perdent, restent bloqués dans un centre de tri ou arrivent abîmés. Le client écrit, on renvoie souvent un produit à ses frais, et la réclamation auprès du transporteur passe après le reste, parfois trop tard. ColisVeille repère ces colis et prépare la réclamation pour vous.</p>
     <p>Le principe est simple : vous reliez votre boutique ou importez la liste de vos envois Colissimo, et ColisVeille lit chaque jour l'état de chaque colis. Les réponses aux questions les plus fréquentes des e-commerçants sont dans les <a href="#faq" data-ev="click_opis_faq">questions fréquentes</a>, et vous pouvez inscrire votre boutique <a href="#start" data-ev="click_opis_start">en bas de cette page</a>.</p>
     <p>Chaque matin, vous voyez la liste des colis qui posent problème : sans mouvement depuis plusieurs jours, retournés à l'expéditeur, signalés endommagés, ou livrés alors que le client dit ne rien avoir reçu. Les colis qui avancent normalement n'apparaissent pas, pour que la liste reste courte.</p>
     <p>Pour chaque colis de la liste, ColisVeille constitue le dossier : numéro de suivi, date d'expédition, valeur déclarée, facture de la commande, et les photos envoyées par le client en cas de casse. Il ne reste qu'à relire et valider ; rien ne part sans votre accord.</p>
@@ -122,33 +156,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Vous pouvez aussi noter pour chaque colis ce qui a été fait côté client : produit renvoyé, avoir, remboursement. Ainsi, quand l'indemnisation arrive, on sait tout de suite à quelle commande elle correspond et si le client a déjà été dédommagé.</p>
     <p>Pour démarrer, il suffit de relier la boutique ou de déposer le fichier des envois du mois. Les colis déjà expédiés sont vérifiés d'un coup, et la première liste apparaît le lendemain matin.</p>
     <p>ColisVeille prépare et suit les réclamations ; la décision d'indemniser appartient au transporteur, et la boutique reste responsable des informations transmises.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions fréquentes</h2>
-    <h3>Que faire quand un colis Colissimo est bloqué ou n'avance plus ?</h3>
-    <p>ColisVeille le fait ressortir dès qu'il reste sans mouvement plusieurs jours, et prépare le dossier de réclamation avec le numéro de suivi, la facture et la valeur du colis.</p>
-    <h3>Comment faire une réclamation pour un colis Colissimo endommagé ?</h3>
-    <p>Les photos envoyées par le client, la facture et la preuve d'expédition sont réunies dans un dossier ; vous relisez, vous validez, et la réclamation part.</p>
-    <h3>Est-ce que la réclamation part sans mon accord ?</h3>
-    <p>Non. Chaque dossier attend votre validation.</p>
-    <h3>Comment ne pas dépasser le délai de réclamation ?</h3>
-    <p>La date limite de chaque colis est affichée et un rappel arrive quelques jours avant.</p>
-    <h3>Faut-il installer quelque chose ?</h3>
-    <p>Non, le service fonctionne dans le navigateur.</p>
-    <h3>Puis-je déjà l'utiliser ?</h3>
-    <p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux e-commerçants.</p>
+    <div class="stack"><h2>Questions fréquentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Que faire quand un colis Colissimo est bloqué ou n'avance plus ?</h3><p>ColisVeille le fait ressortir dès qu'il reste sans mouvement plusieurs jours, et prépare le dossier de réclamation avec le numéro de suivi, la facture et la valeur du colis.</p></div>
+      <div class="split flip"><h3>Comment faire une réclamation pour un colis Colissimo endommagé ?</h3><p>Les photos envoyées par le client, la facture et la preuve d'expédition sont réunies dans un dossier ; vous relisez, vous validez, et la réclamation part.</p></div>
+      <div class="split flip"><h3>Est-ce que la réclamation part sans mon accord ?</h3><p>Non. Chaque dossier attend votre validation.</p></div>
+      <div class="split flip"><h3>Comment ne pas dépasser le délai de réclamation ?</h3><p>La date limite de chaque colis est affichée et un rappel arrive quelques jours avant.</p></div>
+      <div class="split flip"><h3>Faut-il installer quelque chose ?</h3><p>Non, le service fonctionne dans le navigateur.</p></div>
+      <div class="split flip"><h3>Puis-je déjà l'utiliser ?</h3><p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux e-commerçants.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Inscrire votre boutique</h2>
-    <p><label>Colis Colissimo expédiés par mois<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— choisissez —</option><option>Moins de 200</option><option>200–1 000</option><option>1 000–5 000</option><option>Plus de 5 000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Commencer</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Inscrire votre boutique</h2>
+    </div>
+    <div class="tile stack">
+      <label>Colis Colissimo expédiés par mois<select data-ev-focus="form_start"><option value="">— choisissez —</option><option>Moins de 200</option><option>200–1 000</option><option>1 000–5 000</option><option>Plus de 5 000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Commencer</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>ColisVeille</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Confidentialité</a></p>
-  <p class="muted">Préparation et suivi des réclamations ; la décision d'indemniser appartient au transporteur.</p>
+  <p>Préparation et suivi des réclamations ; la décision d'indemniser appartient au transporteur.</p>
 </div></footer>
 
 </body>
